@@ -1,5 +1,5 @@
 /*
- * LCDSegmentDisplay - Test Simple
+ * JNRSegmentDisplay - Test Simple
  * -------------------------------
  * Exemple minimal pour tester rapidement la librairie
  * Affiche simplement les valeurs de 0 a 100 en boucle
@@ -17,8 +17,8 @@
 // Instanciation avec les broches PHYSIQUES dans l'ordre 1 a 5
 // ATTENTION : Broche physique 3 = Arduino 0 (pas 20 !)
 JNRSegmentDisplay lcd(45, 48, 0, 21, 47);
-//LCDSegmentDisplay lcd(48, 45, 0, 21, 47);  // p1 et p2 échangés
-//LCDSegmentDisplay lcd(45, 0, 48, 21, 47);  // p2 et p3 échangés
+//JNRSegmentDisplay lcd(48, 45, 0, 21, 47);  // p1 et p2 échangés
+//JNRSegmentDisplay lcd(45, 0, 48, 21, 47);  // p2 et p3 échangés
 
 void setup() {
   Serial.begin(115200);
@@ -27,7 +27,7 @@ void setup() {
   lcd.begin();
   lcd.setValue(0);
   
-  Serial.println("Test simple LCDSegmentDisplay");
+  Serial.println("Test simple JNRSegmentDisplay");
   Serial.println("Defilement 0-100 toutes les 500ms");
 }
 

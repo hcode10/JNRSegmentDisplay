@@ -1,7 +1,7 @@
 /*
- * LCDSegmentDisplay - Test complet
+ * JNRSegmentDisplay - Test complet
  * --------------------------------
- * Code de test pour la librairie LCDSegmentDisplay
+ * Code de test pour la librairie JNRSegmentDisplay
  * Teste toutes les fonctionnalités : affichage 0-100, icônes %, batterie, polarité
  * 
  * CABLAGE POUR VOTRE LCD (d'apres la photo) :
@@ -48,7 +48,7 @@ void setup() {
   lcd.begin();
   lcd.setValue(0);
   
-  Serial.println("=== Test LCDSegmentDisplay ===");
+  Serial.println("=== Test JNRSegmentDisplay ===");
   Serial.println("Mode : SCROLL (0-100)");
   Serial.println("Les valeurs changent toutes les 1 seconde");
   Serial.println("Icones % et batterie basculent toutes les 5 secondes");

@@ -1,5 +1,5 @@
 /*
- * LCDSegmentDisplay - Test avec Lettres
+ * JNRSegmentDisplay - Test avec Lettres
  * --------------------------------------
  * Exemple d'utilisation des lettres sur l'affichage LCD
  * 
@@ -31,7 +31,7 @@ void setup() {
   
   lcd.begin();
   
-  Serial.println("=== Test Lettres LCDSegmentDisplay ===");
+  Serial.println("=== Test Lettres JNRSegmentDisplay ===");
   Serial.println("Test des differentes combinaisons chiffre + lettre");
 }
 

@@ -1,5 +1,5 @@
 /*
- * LCDSegmentDisplay - Exemple avec ordre physique des broches
+ * JNRSegmentDisplay - Exemple avec ordre physique des broches
  * ------------------------------------------------------------
  * 
  * Cet exemple montre comment utiliser le constructeur avec l'ordre physique
